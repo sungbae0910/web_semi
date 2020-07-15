@@ -1,0 +1,63 @@
+@charset "UTF-8";
+div[id="ch_m"]{
+	cursor:pointer;
+}
+
+input[id*="answer"]{
+	display:none;
+}
+input[id*="answer"] + label{
+	display:block;
+	padding:20px;
+	border:1px solid rgb(219, 210, 210);
+	border-right : 0;
+	border-top : 0;
+	color: #000;
+	font-weight:900;
+	background:#fff;
+	cursor:pointer;
+	position:relative;
+}
+
+input[id*="answer"] + label + div{
+	max-height: 0;
+	transition : all .35s;
+	overflow:hidden;
+	background:#fff;
+	font-size:15px;
+} 
+input[id*="answer"] + label + div p{
+	display:inline-block;
+	padding:20px;
+}
+input[id*="answer"]:checked + label + div{
+	max-height:2000px;
+}
+
+a[id="pe_m"]{
+	margin-right : 15px;
+}
+input[id="btnSelectm"]{
+	margin-right : 699px;
+}
+input[id="btnInsertm"]{
+	margin-right : 766px;
+}
+
+input[id="btn_number"]{
+	margin-right : 10px;
+	margin-top : 7px;
+	text-align : center;
+}
+div[id="paging"]{
+	margin : center;
+}
+
+
+
+
+
+
+
+
+

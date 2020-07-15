@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* img { max-width: 100%; height: auto; } */
+.m_menu{overflow:hidden;padding:16px 0;background:rgb(250,250,250)}
+.m_menu ul{list-style:none;text-align:center;padding:0px;}
+.m_menu li{display:inline-block;width:20%}
+.m_menu li a{display:block;overflow:none;height:79px;font-size:12px;color:rgba(0,0,0,0.87);text-align:center;}
+.m_menu li a:hover{text-decoration:underline;}
+.m_menu li a span{display:inline-block;width:100px;height:100px;margin:0 auto;}
+.m_menu li a p{height:20px;padding-top:7px;font-size:20px;}
+.m_menu .ico_01{background:url('../image/icon.png') -200px -100px no-repeat;background-size:300px auto}
+.m_menu .ico_02{background:url('../image/icon.png') -200px 0 no-repeat;background-size:300px auto}
+.m_menu .ico_03{background:url('../image/icon.png') -100px -200px no-repeat;background-size:300px auto}
+.m_menu .ico_04{background:url('../image/icon.png') 0 -100px no-repeat;background-size:300px auto}
+
+.ico_01 , .ico_02 , .ico_03 , .ico_04 {
+	cursor: pointer;
+}
+
+#nt_k li{
+	cursor: pointer;
+}

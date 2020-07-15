@@ -1,0 +1,757 @@
+@charset "UTF-8";
+body, html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+#main_f {
+	height: 2000px;
+}
+/*---main > top-------------------------------------------------------------------*/
+#top_f {
+	height: 190px;
+	background: #f6323e;
+	overflow: hidden;
+}
+
+#top_in_f {
+	padding-left: 40px;
+	width: 900px;
+	height: 100%;
+	margin: auto;
+}
+
+#top_in_f h1 {
+	margin-top: 0px; padding-top : 74px;
+	font-size:2em;
+	font-weight:bold;
+	color: #fff;
+	padding-top: 74px;
+	margin-bottom: 40px;
+}
+
+#goo_f {
+	text-align : left
+	cursor: pointer;
+}
+#goo_f span{
+	background: #e6323e;
+	border-radius: 3px;
+	box-sizing: border-box;
+	border: 1px solid #d6323e;
+	padding:5px 10px 5px 10px;
+	margin-top: 5px; text-align : left;
+	color: #fff;
+	font-weight: bold;
+	font-size:1.05em;
+}
+#goo_select_f{
+	height: 100px;
+	background: #f6323e;
+}
+#goo_select_f #goo_list_f{
+	box-sizing:border-box;
+	border-radius:5px;
+	padding:20px;
+	width:300px;
+	height: 230px;
+	background-color: #fff;
+	position: absolute;
+	z-index:10;
+	box-shadow: 1px 1px 2px 2px #bbb;
+	display: none;
+}
+#goo_select_f #goo_list_f div{
+	margin-top:5px;
+	color:#666;
+	cursor: pointer;
+}
+#goo_select_f #goo_list_f div:hover{
+	color:#f62a4b;
+}
+#goo_select_f #goolist>div{
+	
+}
+
+
+
+#topImg_f {
+	width: 170px;
+	height: 110px;
+	background-image: url("../image/top_f1.png");
+	position: relative;
+	left: 700px;
+	top: -170px;
+}
+
+/*-----main > mid > left-----------------------------------------------------------------*/
+#mid_f {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index:1;
+}
+
+#mid_in_f {
+	width: 900px;
+	background: #444;
+	margin: auto;
+	margin-top: 40px;
+}
+
+#mid_in_f #left_f {
+	float: left;
+	width: 300px;
+	background: #fff;
+	overflow:hidden;
+	height:auto;
+}
+
+#mid_in_f #left_f #check_f {
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	width: 280px;
+	overflow:hidden;
+	height:auto;
+	margin: 10px;
+	border-radius: 5px;
+	padding: 25px;
+}
+
+
+
+#mid_in_f #left_f #check_f h3:first-child {
+	margin-top: 0px;
+	font-size:1.17em;
+	font-weight: bold;
+}
+
+#mid_in_f #left_f #check_f h3 {
+	margin-top: 30px;
+	font-size:1.17em;
+	font-weight: bold;
+}
+
+#mid_in_f #left_f #check_f hr {
+	margin-top: 30px;
+}
+
+#mid_in_f #left_f #check_f input[type=text] {
+	width: 225px;
+	height: 30px;
+	border: 1px solid #ddd;
+	background-color: #eee;
+	border-radius: 4px;
+	text-align: center;
+}
+
+#mid_in_f #left_f #check_f .btnReset_f {border: 1px solid #f62a4b;color: #f62a4b;background-color: #fff;width: 111px;height: 40px;border-radius: 5px;font-size: 1em;cursor:pointer;}
+#mid_in_f #left_f #check_f .btnApply_f {border: 1px solid #f62a4b;color: #fff;background-color: #f62a4b;width: 111px;height: 40px;border-radius: 5px;font-size: 1em;cursor:pointer;}
+
+#mid_in_f #left_f #check_f input[type='checkbox'] {
+	display: none;
+}
+#mid_in_f #left_f #check_f input[type='checkbox']+label span{
+	display: inline-block;
+	width:20px;
+	height: 20px;
+	background-color:#fff;
+	border: 1px solid #aaa;
+	cursor:pointer;
+	border-radius: 3px;
+	vertical-align:middle;
+	box-shadow : 0.2px 0.2px 1px 1px #ccc inset;
+}
+#mid_in_f #left_f #check_f input[type='checkbox']:checked+label span{
+	background-image: url("../image/checked_f.JPG");
+	border: 1px solid #f62a4b;
+	background-repeat : no-repeat;
+	background-size : cover;
+	box-shadow : 0.2px 0.2px 1px 1px #f62a4b inset;
+}
+#mid_in_f #left_f #check_f input[type='radio'] {
+	display: none;
+}
+#mid_in_f #left_f #check_f input[type='radio']+label span{
+	display: inline-block;
+	width:20px;
+	height: 20px;
+	background-color:#fff;
+	border: 1px solid #aaa;
+	cursor:pointer;
+	border-radius: 3px;
+	vertical-align:middle;
+	box-shadow : 0.2px 0.2px 1px 1px #ccc inset;
+}
+#mid_in_f #left_f #check_f input[type='radio']:checked+label span{
+	background-image: url("../image/checked_f.JPG");
+	border: 1px solid #f62a4b;
+	background-repeat : no-repeat;
+	background-size : cover;
+	box-shadow : 0.2px 0.2px 1px 1px #f62a4b inset;
+}
+
+
+#mid_in_f #left_f #check_f label{
+	margin-bottom:50px;
+	font-size: 0.8em;
+	color:#666;
+	cursor: pointer;
+	display: unset;
+}
+#mid_in_f #left_f #check_f #chk_f{
+	margin-bottom: 20px;
+}
+#mid_in_f #left_f #check_f h4{
+	margin-top: 40px;
+	font-size:1em;
+	font-weight:bold;
+	color:#444;
+	margin-bottom: 20px;
+}
+#mid_in_f #left_f #check_f .bed_f{
+	margin-top: 0px;
+}
+#mid_in_f #left_f #check_f select{
+	position: relative;
+	left: 150px;
+	top:-45px;
+	width: 70px;
+	height: 30px;
+	border-radius: 4px;
+}
+#mid_in_f #left_f #check_f #bed_f{
+	height: 55px;
+}
+#mid_in_f #left_f #check_f #bed_f #bed1_f,#bed2_f,#bed3_f,#bed4_f{
+	float : left;
+	width:53px;
+	height: 53px;
+	margin-left:4px;
+	text-align: center;
+	cursor: pointer;
+}
+
+#mid_in_f #left_f #check_f #bed_f #bed1_f{
+	background-image: url('../image/bed1_f.JPG');
+}
+#mid_in_f #left_f #check_f #bed_f #bed2_f{
+	background-image: url('../image/bed2_f.jpg');
+}
+#mid_in_f #left_f #check_f #bed_f #bed3_f{
+	background-image: url('../image/bed3_f.jpg');
+}
+#mid_in_f #left_f #check_f #bed_f #bed4_f{
+	background-image: url('../image/bed4_f.jpg');
+}
+
+
+
+
+
+
+
+
+
+
+/*-----main_f > mid > right-----------------------------------------------------------------------------------------------------------------*/
+#mid_in_f #right_f {
+	float: left;
+	width: 600px;
+	overflow:hidden;
+	height:auto;
+}
+#mid_in_f #search_f{
+	padding-right: 5px;
+	margin: 10px;
+	overflow:hidden;
+	height:auto;
+}
+#mid_in_f #search_f #price_order_f{
+	height: 60px;
+	text-align: center;
+}
+#mid_in_f #search_f #price_order_f #btnDsc_f{
+	width:150px;
+	height: 40px;
+	border : 1px solid #aaa;
+	background-color: #fffa;
+	border-radius: 5px 5px 5px 5px;
+	font-size: 1.1em;	
+	margin-right: 0px;
+	cursor: pointer;
+}
+#mid_in_f #search_f #price_order_f #btnAsc_f{
+	width:150px;
+	height: 40px;
+	border : 1px solid #aaa;
+	background-color: #fffa;
+	border-radius: 5px 5px 5px 5px;
+	font-size: 1.1em;
+	margin-left: 0px;
+	cursor: pointer;
+}
+#mid_in_f #search_f h4{
+	color:#999;
+	font-size:1.2em;
+	font-weight: 800;
+}
+#mid_in_f #search_f #searched_frame_f{
+	cursor:pointer;
+	width:575px;
+	height:275px;
+	overflow: hidden;
+}
+#mid_in_f #search_f #main_img_f img{
+	width:575px;
+	height:280px;
+	background-color:#aaa;
+}
+#mid_in_f #search_f #searched_f{
+	position: relative;
+	top:-275px;
+	width:555px;
+	height:255px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+#mid_in_f #search_f #searched_f #info_f{
+}
+#mid_in_f #search_f #searched_f #info_f span{
+	opacity: 0.6;
+	background-color: #000;
+	color:#fff;
+	font-size: 1.1em;	
+}
+#mid_in_f #search_f #searched_f #name_f{
+	margin-top:100px;
+}
+#mid_in_f #search_f #searched_f #name_f strong{
+	color:#fff;
+	font-size:1.5em;
+}
+#mid_in_f #search_f #searched_f #name_f p{
+	color:orange;
+}
+#mid_in_f #search_f #searched_f #name_f p:last-child {
+	color:#fff;
+}
+#mid_in_f #search_f #searched_f #price_f {
+	width:170px;
+	height: 30px;
+	position: relative;
+	left:370px;
+	top:-45px;
+	text-align: right;
+}
+#mid_in_f #search_f #searched_f #price_f span{
+	color:#fff;
+	font-size: 1.5em;
+	font-weight: bold;
+	
+}
+/*--------roomsView-----------------------------------------------------------------------------------------------------*/
+
+#view_f {
+	padding-left: 40px;
+	width: 1000px;
+	height: 100%;
+	margin: auto;
+}
+
+/*------roomView > view > view_top_f---------------------------------------------*/
+#view_f #view_top_f{
+	box-sizing: border-box;
+	padding: 50px 20px 20px 20px;
+	height: 530px;
+}
+#view_f #view_top_f #view_top_left_f{
+	float:left;
+	box-sizing: border-box;
+	width:480px;
+	height: 460px;
+}
+#view_f #view_top_f #view_top_left_f #view_top_left_main_f{
+	width:480px;
+	height: 330px;
+}
+#view_f #view_top_f #view_top_left_f #view_top_left_main_f img{
+	background-color:#aaa;
+	width:480px;
+	height: 330px;
+}
+#view_f #view_top_f #view_top_left_f #view_top_left_sub_f{
+	width:480px;
+	height: 130px;
+}
+#view_f #view_top_f #view_top_left_f #view_top_left_sub_f div{
+	margin: 30px 0px 30px 10px;
+	float:left;
+	width:90px;
+	height: 70px;
+}
+#view_f #view_top_f #view_top_left_f #view_top_left_sub_f div:first-child{
+	margin-left: 40px;
+}
+#view_f #view_top_f #view_top_left_f #view_top_left_sub_f div img{
+	background-color:#00f;
+	width:90px;
+	height: 70px;
+	cursor: pointer;
+}
+
+
+#view_f #view_top_f #view_top_right_f{
+	float:left;
+	box-sizing: border-box;
+	width:480px;
+	height: 460px;
+	padding: 0px 30px 30px 30px;
+	overflow:hidden;
+		height:auto;
+}
+
+/*------roomView > view > view_bottom_f---------------------------------------------*/
+#view_bottom_f{
+	box-sizing: border-box;
+	padding: 50px 20px 20px 20px;
+
+}
+#view_bottom_f #view_bottom_score_f{
+	height: 200px;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 50px 0px 50px 0px;
+}
+#view_bottom_f #view_bottom_score_f span:first-child {
+	color:orange;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+#view_bottom_f #view_bottom_score_f span:last-child {
+	color:#333;
+	font-size: 1.1em;
+	
+}
+#view_bottom_f #view_bottom_score_f span b{
+	font-weight: bold;
+}
+#view_bottom_f #view_bottom_review_f{
+	box-sizing: border-box;
+	padding: 30px;
+	overflow:hidden;
+	height:auto;
+}
+#view_bottom_f #view_bottom_review_f #review_img_f{
+	float:left;
+	width:70px;
+	height:70px;
+}
+#view_bottom_f #view_bottom_review_f #review_img_f img{
+	width:70px;
+	height: 70px;
+}
+#view_bottom_f #view_bottom_review_f #review_coment_f{
+	box-sizing:border-box;
+	padding: 0px 20px 0px 20px;
+	float:left;
+	width:830px;
+}
+#view_bottom_f #view_bottom_review_f #review_coment_f span {
+	color:orange;
+	font-size: 1.1em;
+	
+}
+#view_bottom_f #view_bottom_review_f #review_coment_f span:first-child {
+	font-size:1.3em;
+	font-weight: bold;
+	color:#333;
+	
+}
+
+
+
+/*---------별점 만들기---------*/
+#starForm_f{
+	margin: auto;
+	width: 140px;
+	height: 23px;
+	
+}
+#star_f{
+	width:20px;
+	height: 20px;
+	float: left;
+	margin-right:10px;
+}
+#star_f:last-child{
+	margin-right:0px;
+}
+#star_f input[type='checkbox'] {
+	display: none;
+}
+#star_f input[type='checkbox']+label span{
+	display: inline-block;
+	width:20px;
+	height: 20px;
+	cursor:pointer;
+	background-image: url("../image/star1_f.png");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+#star_f input[type='checkbox']:checked+label span{
+	background-image: url("../image/star2_f.png");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+/*---------------------------페이징--------------------------*/
+#paging_f{
+	margin-top : 50px;
+	text-align:center;
+	width: auto;
+	height: auto;
+	margin-top:50px;
+	
+	
+}
+.btnBefore_f{
+	width:20px;
+	height:20px;
+	background-image: url("../image/back_f.jpg");
+	background-repeat : no-repeat;
+	background-size : cover;
+	border:0;
+	outline:0;
+}
+.here_f{
+	background-image: url("../image/selected_f.jpg") ;
+}
+.btnMiddle_f{
+	width:20px;
+	height:20px;
+	background-image: url("../image/select_f.jpg");
+	background-repeat : no-repeat;
+	background-size : cover;
+	border:0;
+	outline:0;
+}
+.btnAfter_f{
+	width:20px;
+	height:20px;
+	background-image: url("../image/go_f.jpg");
+	background-repeat : no-repeat;
+	background-size : cover;
+	border:0;
+	outline:0;
+}
+/*--------------동적 스타일--------------------------------------------------------------------------*/
+.asc_selected_f{
+	color:#f62a4b;
+}
+.asc_select_f{
+	color:#aaa;
+}
+
+
+
+
+/*객실 안내 페이지  */
+#room_w{
+	border : 1px solid #eee;
+	padding: 25px;
+	width : 962px;
+	height: 275px;
+}
+#room_w > #roomview_photo_w {
+	overflow : hidden;
+	width: 376px;
+	height: 226px;
+	float: left;
+} 
+#room_head_w{
+	padding-bottom: 20px;
+}
+
+#room_right_w{
+	padding: 25px;
+	padding-top : 0px;
+	box-sizing: border-box;
+	float: left;
+	width : 400px;
+	
+}
+
+#jsform{
+	width: 960px;
+	
+	margin: auto;
+}
+
+#price_w{
+	width: 512px;
+	height: 136px;
+}
+
+#price_w > #sub_price_w{
+	position: relative; 
+	left: 410px;
+	font-weight: bold;
+	
+}
+
+#btn_w{
+	width: 512px;
+}
+
+#btnR_w{
+	width: 512px;
+}
+
+#checkIn_w , #checkOut_w {
+	display:inline-block;
+	width: 225px;
+	height: 30px;
+	border: 1px solid #ddd;
+	background-color: #eee;
+	border-radius: 4px;
+	text-align: center;
+}
+#checkIn_w{
+	margin-left: 230px;
+}
+#checkOut_w{
+	margin-left: 50px;
+}
+#btnSearch_k{
+	position: relative;
+	left: 750px;
+	top: -30px;
+}
+#dateBox div label:first-child{
+	margin-left: 320px;
+}
+#dateBox div label:nth-child(2){
+	margin-left: 220px;
+}
+
+#check_w , #check2_w{
+	margin-left: 30px;
+}
+
+#dateBox{
+	margin-top: 21px;
+}
+
+#photo_w{
+	float:left;
+	width: 91px;
+	height: 60px;
+	background-image: url("../image/smoke.png");
+}
+#photo1_w{
+	float:left;
+	width: 91px;
+	height: 60px;
+	background-image: url("../image/rs.png");
+}
+#photo2_w{
+	float:left;
+	width: 91px;
+	height: 60px;
+	background-image: url("../image/parking.png");
+}
+#photo3_w{
+	float:left;
+	width: 91px;
+	height: 60px;
+	background-image: url("../image/min.png");
+}
+#photo4_w{
+	float:left;
+	width: 91px;
+	height: 60px;
+	background-image: url("../image/semina.png");
+}
+#photo5_w{
+	float:left;
+	width: 91px;
+	height: 60px;
+	background-image: url("../image/wifi.png");
+}
+#photo6_w{
+    float:left;
+	width: 91px;
+	height: 60px;
+	background-image: url("../image/bes.png");
+}
+#photo7_w{
+    float:left;
+	width: 91px;
+	height: 60px;
+	background-image: url("../image/sei.png");
+}
+
+#roomview_photo_w img {
+	max-width: 100%;
+	height: auto;
+}
+
+#review_re_f span{
+	font-size:1.3em;
+	font-weight: bold;
+	color:#333;
+}
+
+
+.modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 400px; /* Full width */
+            height: 300px; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgb(0,0,0); /* Fallback color */
+            background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        }
+    
+        /* Modal Content/Box */
+        .modal-content {
+            background-color: #fefefe;
+            margin: 15% auto; /* 15% from the top and centered */
+            padding: 20px;
+            border: 1px solid #888;
+            width: 50%; /* Could be more or less, depending on screen size */                          
+        }
+        /* The Close Button */
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+  
+
+
+
+
+
+
+
+/*datepicer 버튼 롤오버 시 손가락 모양 표시*/
+.ui-datepicker-trigger{cursor: pointer;}
+/*datepicer input 롤오버 시 손가락 모양 표시*/
+.hasDatepicker{cursor: pointer;}
+
+
+

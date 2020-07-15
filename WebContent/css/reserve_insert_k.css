@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+#form_check_k {
+	background-color:rgba(0,0,0,0.05);
+}
+#price_k {
+	font-size:30px;
+	font-weight:bold;
+}
+
+#reserve_ck_k{
+	width:270px;
+}
+#reserve_ck_k strong{
+	display:inline-block;
+	height:20px;
+}
+
+#reserve_ok_k{
+	width:340px;
+}
+
+#section_modify_k div strong{
+	display:inline-block;
+	width:50%;
+}
+
+#reserveDel_k strong{
+	font-size:25px;
+}
+#reserveDel_k span{
+	font-size:20px;
+}
